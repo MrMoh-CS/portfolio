@@ -183,3 +183,8 @@ right:-120px
 .hero h1{font-size:2.8rem}
 nav{display:none}
 }
+.project-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
