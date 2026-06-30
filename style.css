@@ -184,7 +184,20 @@ right:-120px
 nav{display:none}
 }
 .project-link{
+    display: block;
     text-decoration: none;
     color: inherit;
-    display: block;
+}
+
+.project-link:visited{
+    color: inherit;
+}
+
+.project-link:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+.project-link .project{
+    height: 100%;
 }
