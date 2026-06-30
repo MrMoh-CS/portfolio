@@ -105,9 +105,9 @@ margin-bottom:40px;
 text-align:center
 }
 .skills-grid,.projects-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:22px
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:22px;
 }
 .skill{
 padding:22px;
@@ -178,6 +178,7 @@ bottom:-120px;
 right:-120px
 }
 @media(max-width:900px){
+.projects-grid{grid-template-columns:1fr;}
 .hero-grid{grid-template-columns:1fr}
 .hero-card{order:-1}
 .hero h1{font-size:2.8rem}
